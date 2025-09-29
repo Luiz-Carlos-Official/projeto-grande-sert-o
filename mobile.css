@@ -1,0 +1,117 @@
+/* ================= MOBILE CSS ================= */
+@media (max-width: 768px) {
+
+    /* ================= BODY ================= */
+    body {
+        font-family: 'Georgia', serif;
+        background-color: #fdf6e3; /* tom de papel antigo */
+        color: #333333;
+        margin: 0;
+        padding: 0 10px;
+        line-height: 1.6;
+    }
+
+    /* ================= HEADER ================= */
+    header {
+        background-color: #c19a6b; /* cor terrosa */
+        color: #fff;
+        padding: 15px 10px;
+        text-align: center;
+        border-bottom: 3px solid #8b5a2b;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin: 0 0 5px;
+    }
+
+    header p {
+        font-size: 0.9rem;
+        margin: 2px 0;
+    }
+
+    /* ================= MENU ================= */
+    nav.menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav.menu a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #8b5a2b;
+        padding: 8px;
+        margin: 3px 0;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    nav.menu a:hover {
+        background-color: #5c3a21;
+    }
+
+    /* ================= MAIN ================= */
+    main {
+        margin-top: 15px;
+    }
+
+    /* Título da Obra */
+    section.titulo h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: #6b4226;
+        margin-bottom: 10px;
+    }
+
+    /* Imagem */
+    section.img {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    section.img img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        border: 2px solid #c19a6b;
+    }
+
+    /* Conteúdo da Obra */
+    section.conteudo {
+        padding: 5px 10px;
+    }
+
+    section.conteudo article {
+        margin-bottom: 20px;
+        background-color: #fff8f0;
+        padding: 10px;
+        border-left: 4px solid #c19a6b;
+        border-radius: 5px;
+        box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    section.conteudo article h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        color: #8b5a2b;
+    }
+
+    section.conteudo article p {
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+
+    /* ================= FOOTER ================= */
+    footer {
+        background-color: #c19a6b;
+        color: #fff;
+        text-align: center;
+        padding: 12px 10px;
+        margin-top: 20px;
+        font-size: 0.85rem;
+        border-top: 3px solid #8b5a2b;
+    }
+}
